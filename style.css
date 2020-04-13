@@ -1,0 +1,101 @@
+body{
+  font-family:'Libre Franklin', sans-serif;
+  font-size: 20px;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  /* position: relative; */
+  margin: auto;
+  align-items: center;
+  margin-top: 80px;
+  
+}
+
+.title{
+  color: hsl(0, 0%, 59%);
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+.soon{
+  color: hsl(209, 33%, 12%);
+  font-weight: bold;
+}
+
+.subtitle{
+  color: hsl(209, 33%, 12%);
+  font-weight: lighter;
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+
+.email{
+  width: 350px;
+  height: 40px;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 50px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.email::placeholder{
+  color: hsl(223, 87%, 63%);
+}
+
+.button{
+  height: 45px;
+  padding: 0 50px;
+  color: #ffffff;
+  background-color:hsl(223, 87%, 63%);
+  border-radius: 50px;
+  box-shadow: -1px 4px 19px -4px hsl(223, 87%, 63%);
+  border: none;
+  outline: none;
+}
+
+.button:hover{
+  background-color: hsl(223, 87%, 45%);
+
+}
+
+.button:active{
+  background-color: hsl(223, 87%, 25%);
+  box-shadow: none;
+}
+
+.img{
+  width: 50%;
+  height: 50%;
+  margin-top: 100px;
+}
+
+.redes-sociales{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-hiper{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid hsl(223, 87%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.redes-hiper:visited{
+  color: hsl(223, 87%, 63%);
+}
+
+.copyright{
+  color:hsl(0, 0%, 59%);
+  margin: 30px 0;
+  font-size: 12px;
+}
